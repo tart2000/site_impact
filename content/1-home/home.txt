@@ -30,3 +30,35 @@ Notif: Rejoignez la prochaine session ! Envoyez votre application avant juin
 ----
 
 Notifbtn: http://google.com
+
+----
+
+Ctas: 
+
+- 
+  titre: Méthodologie précise
+  fa: cogs
+  link: http://google.com
+  letexte: >
+    Divide details about your product or
+    agency work into parts. Write a few
+    lines about each one. A paragraph
+    describing a feature will be enough.
+- 
+  titre: Apprentissage pair-à-pair
+  fa: exchange
+  link: http://google.com
+  letexte: >
+    Divide details about your product or
+    agency work into parts. Write a few
+    lines about each one. A paragraph
+    describing a feature will be enough.
+- 
+  titre: Incroyable écosystème
+  fa: users
+  link: ""
+  letexte: >
+    Divide details about your product or
+    agency work into parts. Write a few
+    lines about each one. A paragraph
+    describing a feature will be enough.

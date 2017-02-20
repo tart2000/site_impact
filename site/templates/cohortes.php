@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-	<div class="mini container" role="main">
+	<div class="mini container bmt" role="main">
 		<h1><?php echo $page->title()->html() ?></h1>
 		
 		<?php foreach ($page->children() as $co) : ?>

@@ -1,0 +1,15 @@
+Title: FAQ
+
+----
+
+Questions: 
+
+- 
+  question: Combien ça coûte ?
+  answer: Presque rien...
+- 
+  question: Qu'est-ce qu'on gagne ?
+  answer: Un collier de fleurs et son poids en petits pois
+- 
+  question: À qui profite le crime ?
+  answer: En général, au Colonel Moutarde

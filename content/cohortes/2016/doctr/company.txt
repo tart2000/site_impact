@@ -1,0 +1,20 @@
+Title: Doctr
+
+----
+
+Link: https://doctr.ca/
+
+----
+
+Baseline: Simplifier et optimiser l'accès aux soins au Québec
+
+----
+
+Logo: doctr.png
+
+----
+
+Description: 
+
+L’application Doctr permet d’avoir accès aux taux d’occupation des 120 urgences du Québec en temps réel et peut vous trouver une clinique sans rendez-vous en alternative. L’application est disponible sur iOS (iPhone et iPad), Android et depuis le web.
+L’application Check-In permet de prendre rendez-vous chez le médecin spécialiste dans un délai record. Ce service payant est simple et rapide ! L’application est disponible sur iOS (iPhone et iPad) et Android.

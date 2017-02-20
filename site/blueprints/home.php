@@ -21,3 +21,23 @@ fields:
     label: Text
     type:  textarea
     size:  large
+  ctas: 
+    label: Calls to Action 
+    type: structure 
+    entry: >
+      {{titre}}
+    fields: 
+      titre: 
+        label: Titre
+        type: text 
+      fa: 
+        label: Fa 
+        type: text 
+        width: 1/2 
+      link: 
+        label: Link
+        type: url 
+        width: 1/2 
+      letexte: 
+        label: Texte 
+        type: textarea 

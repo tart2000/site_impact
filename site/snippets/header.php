@@ -49,4 +49,11 @@
 		&#9776;
 	</span>
 
+	<?php if ($page->template() != 'home') : ?>
+		<a href="<?php echo $site->url() ?>" id="logo-s">
+			<img src="<?php echo $site->url() ?>/assets/images/logo_impact8_tiny.png">
+		</a>
+	<?php endif ?>
+	
+
 	<div class="wrapper">

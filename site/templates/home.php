@@ -37,48 +37,23 @@
 		<div class="section section-light-brown landing-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 column">
-                        <h4><i class="fa fa-cogs"></i>Méthodologie précise</h4>
-                        <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        <a class="btn btn-danger btn-simple" href="#">En savoir plus <i class="fa fa-chevron-right"></i></a>
-                    </div>
-                    <div class="col-md-4 column">
-                        <h4><i class="fa fa-exchange"></i>Apprentissage pair-à-pair</h4>
-                        <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        <a class="btn btn-danger btn-simple" href="#">En savoir plus <i class="fa fa-chevron-right"></i></a>
-                    </div>
-                    <div class="col-md-4 column">
-                        <h4><i class="fa fa-group"></i>Incroyable écosystème</h4>
-                        <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        <a class="btn btn-danger btn-simple" href="#">En savoir plus <i class="fa fa-chevron-right"></i></a>
-                    </div>
+                    <?php foreach($page->ctas()->yaml() as $cta): ?>
+                        <div class="col-md-4 column">
+                            <h4><i class="fa fa-<?php echo $cta['fa'] ?>"></i><?php echo $cta['titre'] ?></h4>
+                            <p><?php echo $cta['letexte'] ?></p>
+                            <?php if ($cta['link'] != '') : ?>
+                                <a class="btn btn-danger btn-simple" href="<?php echo $cta['link'] ?>">En savoir plus <i class="fa fa-chevron-right"></i></a>
+                            <?php endif ?>
+                        </div>
+                    <?php endforeach ?>
                 </div>
             </div>
         </div>
 	</div>
 
-    <div class="container mt"> <!-- programme et modules --> 
-        <?php foreach (page('/impact8/modules')->children() as $m) : ?>
 
-            <nav class="navbar navbar-ct-danger smt smb" role="navigation">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <a class="navbar-brand" href="<?php echo $m->url() ?>"><?php echo $m->num() ?> - <?php echo $m->title() ?></a>
-                </div>
-            
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="" id="">
-                  <ul class="nav navbar-nav">
-                    <li><a href="#">Work in progress...</a></li>
-                    <li class="active"><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                  </ul>
-                </div>              
-              </div><!-- /.container-fluid -->
-            </nav>
+    <div class="container mt"> <!-- programme et modules --> 
         
-        <?php endforeach ?>
     </div>
    
    
@@ -97,6 +72,14 @@
                         <a class="btn btn-warning btn-simple" href="#">En savoir plus <i class="fa fa-chevron-right"></i></a>
                     </div>
                 </div>
+            </div>
+            <div class="col-sm-4">
+                <?php snippet('faq') ?>
+            </div>
+            <div class="col-sm-4">
+                <?php foreach (page('/impact8/modules')->children() as $m) : ?>
+                    <a href="<?php echo $m->url() ?>"><?php echo $m->num() ?> - <?php echo $m->title() ?></a><br>
+                <?php endforeach ?>
             </div>
         </div>
     </div>

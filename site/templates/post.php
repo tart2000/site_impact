@@ -1,6 +1,6 @@
 <?php snippet( 'header') ?>
 
-<div class="container">
+<div class="container bmt">
 	<div class="row main">
 		<section id="post" class="col-sm-9 single-post">
 
