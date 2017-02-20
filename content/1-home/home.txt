@@ -21,4 +21,12 @@ Yay! If you are seeing this, the installation of Kirby worked. :)
 Intro: 
 
 (image: logo_impact8_transparent_S.png)
-#Un super titre
+#Programme d'accélération en innovation sociale
+
+----
+
+Notif: Rejoignez la prochaine session ! Envoyez votre application avant juin
+
+----
+
+Notifbtn: http://google.com

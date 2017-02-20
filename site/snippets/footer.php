@@ -1,18 +1,17 @@
     
 </div> <!-- fin wrapper -->
-    <hr>
- 	 	<footer class="footer" role="contentinfo">
- 	 		<div class="container">
-				<div class="row">
-					<div class="col-sm-6 copyright">
-						<?php echo $site->copyright()->kirbytext() ?>					
-					</div>
-					<div class="col-sm-6 colophon text-right">
-						<a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-					</div>
+ 	<footer class="footer" role="contentinfo">
+ 		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 copyright">
+					Un projet <a href="http://rhizome.group" target="_blank">Rhizome Scale-Up</a>					
 				</div>
- 	 		</div>
-		</footer>
+				<div class="col-sm-6 colophon text-right">
+		
+				</div>
+			</div>
+	 	</div>
+	</footer>
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="<?php url('assets/js/vendor/jquery-1.11.2.min.js') ?>"><\/script>')</script>
@@ -20,7 +19,6 @@
     <?php echo getBlogFooter($page); ?>
 
     <?php echo js('assets/js/vendor/bootstrap.min.js'); ?>
-    <?php echo js('assets/js/ct-paper.js'); ?>
     <?php echo js('assets/js/main.js'); ?>
 
     <?php if ($page->template() == 'home') : ?>

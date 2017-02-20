@@ -1,0 +1,17 @@
+Title: ÉAU
+
+----
+
+Description: ÉAU (Écosystèmes Alimentaires Urbains) se spécialise dans la production commerciale urbaine de fruits, légumes et poisson grâce à la technologie d’un système intégré novateur : l’aquaponie. Les produits frais de qualité biologique issus des futures fermes verticales d’ÉAU approvisionneront les restaurants, organismes, citoyens et institutions de la communauté montréalaise, et ce, à l’année, indépendamment des intempéries saisonnières du Québec.
+
+----
+
+Link: http://www.eau-agriculture.com/
+
+----
+
+Baseline: Des fermes verticales pour nourrir les communautés.
+
+----
+
+Logo: logo_eau_pastille.png

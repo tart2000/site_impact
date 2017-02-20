@@ -14,7 +14,6 @@
 	<meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
 	<?php echo css('assets/css/bootstrap.min.css') ?>
-	<?php echo css('assets/css/ct-paper.css') ?>
 	<?php echo css('assets/css/main.css') ?>
 
 	<!--     Fonts and icons     -->

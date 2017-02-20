@@ -1,9 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Program
+title: Cohortes
 pages:
-  templates: 
-  	- modules
+  template: cohorte
 files: false
 fields:
   title:

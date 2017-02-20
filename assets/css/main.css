@@ -7,9 +7,18 @@
 html, body {
 	height: 100%;
 }
+.container img { 
+	max-width: 100%;
+}
+.mini.container {
+	max-width: 780px !important;
+}
 
 .mt {
 	margin-top: 50px;
+}
+.ml {
+	margin-left: 5px;
 }
 .smt {
 	margin-top: 15px;
@@ -47,9 +56,10 @@ html, body {
 
 .jumbotron {
 	margin-bottom: 0px;
-	background-color: #f4f3ef;
-	background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
 	padding: 100px 0;
+}
+.jumbotron img {
+	width: 1500px;
 }
 
 .landing-section {
@@ -73,7 +83,7 @@ h5, .h5 {
 .burger {
 	font-size:30px;
 	cursor:pointer;
-	position: absolute;
+	position: fixed;
 	top: 10px;
 	left: 20px;
 	z-index: 2;
@@ -196,9 +206,28 @@ h5, .h5 {
 }
 
 
+/* Genral elements */
 
+.btn-simple, .btn-simple:hover {
+	background-color: transparent;
+	border: none;
+	color: #EB5E28;
+}
+.btn-simple:hover {
+	font-weight: 700;
+}
 
+.alert {
+	border-radius: 0px;
+}
 
+/* Footer */
+.footer {
+	margin-top: 50px;
+	background-color: #efefef;
+	padding-top: 50px; 
+	padding-bottom: 50px;
+}
 
 
 

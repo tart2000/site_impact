@@ -215,7 +215,6 @@ function randomHex() {
 
 function colorInRange(items) {
     var lenum = Math.floor(Math.random()*(items.length))
-    console.log(lenum);
     return items[lenum];
 }
 
