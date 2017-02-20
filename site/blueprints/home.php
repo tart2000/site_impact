@@ -6,6 +6,9 @@ fields:
   title:
     label: Title
     type:  text
+  intro: 
+  	label: Bloc intro 
+  	type: textarea 
   text:
     label: Text
     type:  textarea

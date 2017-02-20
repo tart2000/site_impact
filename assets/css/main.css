@@ -4,6 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
+html, body {
+	height: 100%;
+}
+
 .mt {
 	margin-top: 50px;
 }
@@ -72,6 +76,7 @@ h5, .h5 {
 	position: absolute;
 	top: 10px;
 	left: 20px;
+	z-index: 2;
 }
 
 .overlay {
@@ -79,7 +84,7 @@ h5, .h5 {
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 10; /* Sit on top */
     left: 0;
     top: 0;
     background-color: rgb(0,0,0); /* Black fallback color */
@@ -130,6 +135,22 @@ h5, .h5 {
     }
 }
 
+/* Intro */
+#intro {
+	width: 100%;
+	text-align: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	position: relative;
+}
+
+#intro-blurb {
+	width: 100%;
+	padding: 100px;
+	position: absolute;
+	top: 0px; 
+
+}
 
 /* event */
 

@@ -1,5 +1,11 @@
 <?php snippet('header') ?>
 
+    <div id="intro">
+        <div id="intro-blurb">
+            <?php echo $page->intro()->kirbytext() ?>
+        </div>
+    </div>
+
 	<div class="alert alert-danger landing-alert">
          <div class="container text-center">
              <h5>Rejoignez la prochaine session ! Envoyez votre application avant juin.</h5>
@@ -77,6 +83,7 @@
             </div>
         </div>
     </div>
+
 
 
 <?php snippet('footer') ?>

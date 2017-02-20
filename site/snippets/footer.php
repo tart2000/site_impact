@@ -23,6 +23,11 @@
     <?php echo js('assets/js/ct-paper.js'); ?>
     <?php echo js('assets/js/main.js'); ?>
 
+    <?php if ($page->template() == 'home') : ?>
+	    <?php echo js('assets/js/paper-full.min.js') ?>
+	    <?php echo js('assets/js/network.js') ?>
+	<?php endif ?>
+
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
