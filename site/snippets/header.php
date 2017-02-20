@@ -46,6 +46,8 @@
 	</div>
 
 	<!-- Use any element to open/show the overlay navigation menu -->
-	<span onclick="openNav()">open</span>
+	<span onclick="openNav()" type="button" class="burger">
+		&#9776;
+	</span>
 
 	<div class="wrapper">
