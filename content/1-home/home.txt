@@ -4,17 +4,9 @@ Title: Home
 
 Text: 
 
-Yay! If you are seeing this, the installation of Kirby worked. :)
-
-## Get started
-
-- Go to the (link: panel text: panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://getkirby.com/forum text: forum) to connect with other Kirby users
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
-
-**Have fun with Kirby!**
+###Impact8 est un programme d'accompagnement pour aider les entrepreneurs sociaux à passer à l'échelle et maximiser leur impact. 
+Il s'adresse à toutes les organisations (entreprises, coopératives et organisations à but non lucratif) qui ont validé leur modèle d'affaire à travers (au minimum) une première année d'existence. 
+Il demande un engagement de 6 mois à raison de 1 journée par semaine.
 
 ----
 

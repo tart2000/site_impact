@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-	<div class="mini container bmt" role="main">
+	<div class="mini container bmt mb" role="main">
 		<h1><?php echo $page->title()->html() ?></h1>
 		<?php echo $page->description()->kirbytext() ?>
 		<hr>

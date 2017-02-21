@@ -1,22 +1,18 @@
     
 </div> <!-- fin wrapper -->
  	<footer class="footer" role="contentinfo">
- 		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 copyright">
-					Un projet <a href="http://rhizome.group" target="_blank">Rhizome Scale-Up</a>					
-				</div>
-				<div class="col-sm-6 colophon text-right">
-		
-				</div>
-			</div>
-	 	</div>
+ 		<div class="container center">
+ 	 		<p>Un projet</p>
+ 	 		<a href="http://rhizome.group" target="_blank">
+	 	 		<img src="<?php echo $site->url() ?>/assets/images/logo_rhizome_carre_50.jpg">
+ 	 		</a>
+ 	 	</div>
 	</footer>
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="<?php url('assets/js/vendor/jquery-1.11.2.min.js') ?>"><\/script>')</script>
-
-    <?php echo getBlogFooter($page); ?>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+		
 
     <?php echo js('assets/js/vendor/bootstrap.min.js'); ?>
     <?php echo js('assets/js/main.js'); ?>

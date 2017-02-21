@@ -24,10 +24,15 @@
             <div class="row">
                 <div class="col-sm-6">
         			<?php echo $page->text()->kirbytext() ?>
-        			<p><a class="btn btn-danger btn-fill" href="/about" role="button">En savoir plus &raquo;</a></p>
+        			<p><a class="btn btn-danger btn-fill" href="/about" role="button">En savoir plus</a></p>
         		</div>
                 <div class="col-sm-6">
-                    <img src="<?php echo $site->url() ?>/assets/images/hands.jpg">
+                    <?php if ($page->cover() != '') : ?>
+                        <?php $img = $page->cover()->toFile() ?>
+                        <img src="<?php echo $img->url() ?>">
+                    <?php else : ?>
+                        <img src="<?php echo $site->url() ?>/assets/images/hands.jpg">
+                    <?php endif ?>
                 </div>
         	</div>
         </div>
@@ -42,7 +47,7 @@
                             <h4><i class="fa fa-<?php echo $cta['fa'] ?>"></i><?php echo $cta['titre'] ?></h4>
                             <p><?php echo $cta['letexte'] ?></p>
                             <?php if ($cta['link'] != '') : ?>
-                                <a class="btn btn-danger btn-simple" href="<?php echo $cta['link'] ?>">En savoir plus <i class="fa fa-chevron-right"></i></a>
+                                <a class="btn btn-simple" href="<?php echo $cta['link'] ?>">En savoir plus <i class="fa fa-chevron-right"></i></a>
                             <?php endif ?>
                         </div>
                     <?php endforeach ?>
@@ -50,40 +55,35 @@
             </div>
         </div>
 	</div>
-
-
-    <div class="container mt"> <!-- programme et modules --> 
-        
+   
+   <div class="container">
+    <div class="row">
+        <?php $mentors = page('ecosystem')->children()->limit(4) ?>
+        <?php foreach ($mentors as $mentor) : ?>
+            <?php snippet('mentor', array('mentor'=>$mentor)) ?>
+        <?php endforeach ?>
     </div>
-   
-   
+    <div class="row center mb">
+        <a class="btn btn-simple" href="/ecosystem">Voir l'écosystème <i class="fa fa-chevron-right"></i></a>
+    </div>
+</div>
 
-    <div class="container"><!-- événements à venir -->
+    <?php snippet('partners') ?>
+
+    <div class="container mt"><!-- événements à venir -->
         <div class="row">
-            <div class="col-sm-4">
-                <div class="bs-callout bs-callout-event">
-                    <div class="date">
-                        <div class="event-num">25</div>
-                        <div class="event-month">Jan</div>
-                    </div>
-                    <div class="event-desc">
-                        <strong>Un super événement</strong><span class="event-hours">19h > 21h</span>
-                        <p>Un genre de texte de description</p>
-                        <a class="btn btn-warning btn-simple" href="#">En savoir plus <i class="fa fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-sm-offset-4">
                 <?php snippet('faq') ?>
             </div>
-            <div class="col-sm-4">
-                <?php foreach (page('/impact8/modules')->children() as $m) : ?>
-                    <a href="<?php echo $m->url() ?>"><?php echo $m->num() ?> - <?php echo $m->title() ?></a><br>
-                <?php endforeach ?>
-            </div>
+
         </div>
     </div>
 
 
+
+<!-- Google map -->
+    <div class="mt embed-container maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.3914235548104!2d-73.55798048444129!3d45.50219857910148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a5852a620f9%3A0xbc3d155e83f1413a!2s409+Rue+Saint+Nicolas%2C+Montr%C3%A9al%2C+QC+H2Y+2P4!5e0!3m2!1sen!2sca!4v1459366166442" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 
 <?php snippet('footer') ?>

@@ -21,6 +21,12 @@ fields:
     label: Text
     type:  textarea
     size:  large
+  cover:
+    label: Image
+    type: selector
+    mode: single
+    types:
+      - image
   ctas: 
     label: Calls to Action 
     type: structure 

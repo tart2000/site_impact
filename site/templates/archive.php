@@ -1,6 +1,6 @@
 <?php snippet( 'header') ?>
 
-<div class="container bmt">
+<div class="container bmt mb">
 	<div class="row main">
 		<section id="archive" class="archive col-sm-9">
 

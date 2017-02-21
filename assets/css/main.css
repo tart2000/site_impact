@@ -7,11 +7,14 @@
 html, body {
 	height: 100%;
 }
+p {
+	font-size: 1.15em;
+}
 .container img { 
 	max-width: 100%;
 }
 .mini.container {
-	max-width: 780px !important;
+	max-width: 960px !important;
 }
 
 .mt {
@@ -28,6 +31,18 @@ html, body {
 }
 .smb {
 	margin-bottom: 15px;
+}
+.smb {
+	margin-bottom: 15px;
+}
+.mb {
+	margin-bottom: 50px;
+}
+.pb {
+	padding-bottom: 15px;
+}
+.center {
+	text-align: center;
 }
 /* Navbar */
 .navbar-brand>img {
@@ -165,13 +180,38 @@ h5, .h5 {
 	position: relative;
 }
 
+#intro img {
+	max-width: 100%;
+}
+
 #intro-blurb {
-	width: 100%;
-	padding: 100px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	position: absolute;
 	top: 0px; 
-
+	width: 100%;
 }
+
+@media (min-width: 750px) { 
+	#intro-blurb {
+		padding: 100px;
+	}
+}
+
+/* Hover on partners */
+img.partner, .mentors .thumb-img img  {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+img.partner:hover, .mentors .thumb-img img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+
 
 /* event */
 
@@ -215,6 +255,29 @@ h5, .h5 {
 	opacity: 0.5;
 }
 
+/* Mentors */
+
+img.partner, .mentor .thumb-img img  {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+img.partner:hover, .mentor .thumb-img img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+.partner {
+	margin-bottom: 25px;
+}
+.thumb-img img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+.mentor-meta {
+	text-align: center;
+	min-height: 80px;
+}
 
 /* Genral elements */
 
@@ -231,9 +294,20 @@ h5, .h5 {
 	border-radius: 0px;
 }
 
+/* Google map */
+.maps iframe{
+    pointer-events: none;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin-bottom: -5px;
+}
+iframe.maps:active {
+ 	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+ }
+
 /* Footer */
 .footer {
-	margin-top: 50px;
 	background-color: #efefef;
 	padding-top: 50px; 
 	padding-bottom: 50px;
