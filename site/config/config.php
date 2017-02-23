@@ -55,6 +55,16 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+c::set('languages', array(
+    array(
+        'code'    => 'fr',
+        'name'    => 'Français',
+        'locale'  => 'fr_FR.UTF-8',
+        'default' => true,
+        'url'     => '/'
+    )
+));
+
 c::set('markdown.extra', true);
 c::set('home', 'home');
 c::set('debug', 'true');

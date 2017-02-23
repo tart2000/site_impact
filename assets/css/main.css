@@ -215,45 +215,28 @@ img.partner:hover, .mentors .thumb-img img:hover {
 
 /* event */
 
-.bs-callout {
-    padding: 20px;
-    border: 1px solid #D8C1AB;
-    border-left-width: 5px;
-    border-radius: 3px;
-    position: relative;
+.panel.date {
+    margin: 0px;
+    width: 60px;
+    text-align: center;
 }
-.bs-callout-event {
-    border-left-color: #D8C1AB;
-}
-.date, .event-desc {
-	display: inline-table;
-}
-.date {
-	text-align: center; 
-	margin-right: 25px;
-	margin-left: 15px;
 
+.panel.date .month {
+    padding: 2px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-.bs-callout .btn-simple {
-	padding: 0;
+
+.panel.date .day {
+    padding: 3px 0px;
+    font-weight: 700;
+    font-size: 1.5em;
 }
-.bs-callout .fa {
-	margin-right: 12px;
-	font-size: 0.8em; 
-}
-.event-num {
-	font-size: 30px;
-	margin-bottom: -9px;
-}
-.event-desc {
-	position: relative;
-    top: -10px;
-}
-.event-hours {
-	margin-left: 15px; 
+
+.media-heading em {
 	font-size: 14px;
-	opacity: 0.5;
 }
+
 
 /* Mentors */
 

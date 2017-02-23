@@ -47,7 +47,7 @@
                             <h4><i class="fa fa-<?php echo $cta['fa'] ?>"></i><?php echo $cta['titre'] ?></h4>
                             <p><?php echo $cta['letexte'] ?></p>
                             <?php if ($cta['link'] != '') : ?>
-                                <a class="btn btn-simple" href="<?php echo $cta['link'] ?>">En savoir plus <i class="fa fa-chevron-right"></i></a>
+                                <a class="btn btn-simple" href="<?php echo $site->url().$cta['link'] ?>">En savoir plus <i class="fa fa-chevron-right"></i></a>
                             <?php endif ?>
                         </div>
                     <?php endforeach ?>
@@ -56,23 +56,26 @@
         </div>
 	</div>
    
-   <div class="container">
-    <div class="row">
-        <?php $mentors = page('ecosystem')->children()->limit(4) ?>
-        <?php foreach ($mentors as $mentor) : ?>
-            <?php snippet('mentor', array('mentor'=>$mentor)) ?>
-        <?php endforeach ?>
+    <div class="container">
+        <div class="row">
+            <?php $mentors = page('ecosystem')->children()->limit(4) ?>
+            <?php foreach ($mentors as $mentor) : ?>
+                <?php snippet('mentor', array('mentor'=>$mentor)) ?>
+            <?php endforeach ?>
+        </div>
+        <div class="row center mb">
+            <a class="btn btn-simple" href="/ecosystem">Voir l'écosystème <i class="fa fa-chevron-right"></i></a>
+        </div>
     </div>
-    <div class="row center mb">
-        <a class="btn btn-simple" href="/ecosystem">Voir l'écosystème <i class="fa fa-chevron-right"></i></a>
-    </div>
-</div>
 
     <?php snippet('partners') ?>
 
     <div class="container mt"><!-- événements à venir -->
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
+            <div class="col-sm-4">
+                <?php snippet('calendar', array('limit'=>1)) ?>
+            </div>
+            <div class="col-sm-4">
                 <?php snippet('faq') ?>
             </div>
 

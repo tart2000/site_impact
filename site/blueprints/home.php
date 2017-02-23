@@ -42,7 +42,7 @@ fields:
         width: 1/2 
       link: 
         label: Link
-        type: url 
+        type: text 
         width: 1/2 
       letexte: 
         label: Texte 

@@ -1,0 +1,21 @@
+Title: Calendrier
+
+----
+
+Text: Tongue cupim flank, bresaola meatball ground round t-bone shoulder spare ribs capicola porchetta short ribs alcatra strip steak. Alcatra tail pork belly sausage meatloaf. Tri-tip porchetta flank spare ribs ham doner. Tri-tip cupim biltong meatloaf, porchetta hamburger shankle kevin bacon pork chop sirloin bresaola. Kevin capicola jerky shank short loin, pork spare ribs jowl rump turkey landjaeger tri-tip. Pork chop cupim corned beef short loin, beef ribs drumstick shoulder.
+
+----
+
+Calendar: 
+
+- 
+  summary: Town hall
+  description: >
+    Venez découvrir tous les projets de la
+    cohorte. Il y aura même possibilité de
+    boire un coup avec eux après !
+  _begin_date: 2017-02-26
+  _begin_time: 11:00
+  _end_date: ""
+  _end_time: ""
+  link: http://google.com

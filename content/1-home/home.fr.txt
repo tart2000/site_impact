@@ -1,4 +1,4 @@
-Title: Home
+Title: Accueil
 
 ----
 
@@ -30,7 +30,7 @@ Ctas:
 - 
   titre: Méthodologie précise
   fa: cogs
-  link: http://google.com
+  link: /programme
   letexte: >
     Divide details about your product or
     agency work into parts. Write a few
@@ -48,9 +48,13 @@ Ctas:
 - 
   titre: Incroyable écosystème
   fa: users
-  link: ""
+  link: /ecosystem
   letexte: >
     Divide details about your product or
     agency work into parts. Write a few
     lines about each one. A paragraph
     describing a feature will be enough.
+
+----
+
+Cover: 
