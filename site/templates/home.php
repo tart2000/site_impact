@@ -64,7 +64,7 @@
             <?php endforeach ?>
         </div>
         <div class="row center mb">
-            <a class="btn btn-simple" href="/ecosystem">Voir l'écosystème <i class="fa fa-chevron-right"></i></a>
+            <a class="btn btn-simple" href="/ecosystem">Voir tout l'écosystème <i class="fa fa-chevron-right"></i></a>
         </div>
     </div>
 
@@ -73,12 +73,27 @@
     <div class="container mt"><!-- événements à venir -->
         <div class="row">
             <div class="col-sm-4">
-                <?php snippet('calendar', array('limit'=>1)) ?>
+                <ul class="media-list">
+                <?php foreach (page('blog')->children()->limit(2) as $post) : ?>
+                    <li class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <a href="<?= getPostUrl($post) ?>">
+                                    <?php echo $post->title() ?>
+                                </a>
+                            </h4>
+                            <?= getPostExcerpt($post, 20) ?>
+                        </div>
+                    </li>
+                <?php endforeach ?>
+                </ul>
             </div>
             <div class="col-sm-4">
                 <?php snippet('faq') ?>
             </div>
-
+            <div class="col-sm-4">
+                <?php snippet('calendar', array('limit'=>1)) ?>
+            </div>
         </div>
     </div>
 

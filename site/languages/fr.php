@@ -8,5 +8,8 @@ l::set('calendar-no-entry', 'Aucun événement prévu');
 l::set('date', 'Date');
 l::set('to', 'à');
 
+l::set('Posted by', 'Posté par');
+l::set('on', 'le');
+
 l::set('title', 'Titre');
 l::set('description', 'Description');

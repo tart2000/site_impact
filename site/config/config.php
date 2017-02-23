@@ -34,8 +34,8 @@ c::set('pagination-search', 30);
 
 // reading
 c::set('posts-page', 'blog');
-c::set('posts-templates', array('post', 'posts', 'archive', 'search'));
-c::set('posts-date-format', 'd-m-Y');
+c::set('posts-templates', array('post', 'posts-page', 'archive', 'search'));
+c::set('posts-date-format', 'd/m/Y');
 c::set('excerpt-length', 55); // words
 c::set('categories-page', 'categories');
 

@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Posts
+title: Blog
 pages:
   template: post
   num: date
@@ -8,5 +8,5 @@ pages:
 files: false
 fields:
   title:
-    label: Titel
+    label: Title
     type:  text

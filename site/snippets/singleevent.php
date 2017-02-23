@@ -1,5 +1,5 @@
 
-<?php $shortMonth = date('M',$event->getBeginTimestamp()) ?>
+<?php $shortMonth = date('M',$event->getBeginTimestamp()).'.' ?>
 
 <li class="media">
     <div class="media-left">
