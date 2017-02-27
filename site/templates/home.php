@@ -26,12 +26,10 @@
         			<?php echo $page->text()->kirbytext() ?>
         			<p><a class="btn btn-danger btn-fill" href="/about" role="button">En savoir plus</a></p>
         		</div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 smt">
                     <?php if ($page->cover() != '') : ?>
                         <?php $img = $page->cover()->toFile() ?>
                         <img src="<?php echo $img->url() ?>">
-                    <?php else : ?>
-                        <img src="<?php echo $site->url() ?>/assets/images/hands.jpg">
                     <?php endif ?>
                 </div>
         	</div>
@@ -64,11 +62,9 @@
             <?php endforeach ?>
         </div>
         <div class="row center mb">
-            <a class="btn btn-simple" href="/ecosystem">Voir tout l'écosystème <i class="fa fa-chevron-right"></i></a>
+            <a class="btn btn-default" href="/ecosystem">Voir tout l'écosystème</a>
         </div>
     </div>
-
-    <?php snippet('partners') ?>
 
     <div class="container mt"><!-- événements à venir -->
         <div class="row">

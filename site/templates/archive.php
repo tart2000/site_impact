@@ -51,7 +51,7 @@
 			<?php snippet('nav-pagination') ?>
 
 		</section>
-		<?php snippet('sidebar') ?>
+		
 	</div>
 </div>		
 <?php snippet( 'footer') ?>

@@ -24,8 +24,6 @@
 			</article>
 		<?php endforeach ?>
 
-
-
 		</section>
 		
 	</div>

@@ -240,7 +240,7 @@ var distance = function (x1, y1, x2, y2) {
 $(document).ready(function () {
     var container = $('#intro'),
         blurb = $('#intro-blurb'),
-        canvas = $('<canvas id="canvas" style="width:100%;height:100%;" resize></canvas>').prependTo(container),
+        canvas = $('<canvas id="canvas" style="width:100%;" resize></canvas>').prependTo(container),
         content_height = blurb.outerHeight(),
         window_height = $(window).outerHeight(),
         header_height = $('body > intro').outerHeight(),
@@ -253,9 +253,10 @@ $(document).ready(function () {
     // Allow scrolling on small windows
     if (content_height > (window_height - header_height)) {
         container.height(content_height);
-        console.log('plouf');
+        canvas.height(content_height);
     } else {
         container.height(content_height);
+        canvas.height(content_height);
     }
 
     network.init();

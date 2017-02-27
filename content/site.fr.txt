@@ -10,8 +10,16 @@ Description: Acceleration program for startups
 
 ----
 
-Keywords: Impact, incubator, program, start-up, innovation, social
+Keywords: Impact,incubator,program,start-up,innovation,social
 
 ----
 
-Copyright: © Rhizome 2016 
+Copyright: © Rhizome 2016
+
+----
+
+Logo: logo_impact8_tiny.png
+
+----
+
+Analytics: UA-XXXXX-X

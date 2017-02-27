@@ -1,12 +1,7 @@
     
 </div> <!-- fin wrapper -->
  	<footer class="footer" role="contentinfo">
- 		<div class="container center">
- 	 		<p>Un projet</p>
- 	 		<a href="http://rhizome.group" target="_blank">
-	 	 		<img src="<?php echo $site->url() ?>/assets/images/logo_rhizome_carre_50.jpg">
- 	 		</a>
- 	 	</div>
+ 		<?php snippet('partners') ?>
 	</footer>
 		
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

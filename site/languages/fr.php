@@ -13,3 +13,7 @@ l::set('on', 'le');
 
 l::set('title', 'Titre');
 l::set('description', 'Description');
+
+l::set('name','Nom');
+l::set('mail','Courriel');
+l::set('submit','Envoyer');

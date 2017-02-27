@@ -50,9 +50,15 @@
 		&#9776;
 	</span>
 
+	<?php if ($site->logo() != '') : ?>
+		<?php $logo = $site->logo()->toFile()->url() ?>
+	<?php else : ?>
+		<?php $logo = $site->url().'/assets/images/logo.png' ?>
+	<?php endif ?>
+
 	<?php if ($page->template() != 'home') : ?>
 		<a href="<?php echo $site->url() ?>" id="logo-s">
-			<img src="<?php echo $site->url() ?>/assets/images/logo_impact8_tiny.png">
+			<img src="<?php echo $logo ?>">
 		</a>
 	<?php endif ?>
 	

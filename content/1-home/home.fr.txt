@@ -39,7 +39,7 @@ Ctas:
 - 
   titre: Apprentissage pair-à-pair
   fa: exchange
-  link: http://google.com
+  link: /cohortes
   letexte: >
     Divide details about your product or
     agency work into parts. Write a few
@@ -57,4 +57,4 @@ Ctas:
 
 ----
 
-Cover: 
+Cover: pool_water3.jpg

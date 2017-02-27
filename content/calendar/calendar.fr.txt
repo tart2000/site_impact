@@ -14,7 +14,7 @@ Calendar:
     Venez découvrir tous les projets de la
     cohorte. Il y aura même possibilité de
     boire un coup avec eux après !
-  _begin_date: 2017-02-26
+  _begin_date: 2017-03-02
   _begin_time: 11:00
   _end_date: ""
   _end_time: ""

@@ -3,6 +3,7 @@
 title: Module
 pages:
   template: bloc
+  hidden: true
 files: false
 fields:
   title:
@@ -11,3 +12,8 @@ fields:
   description: 
   	label: Description 
   	type: textarea
+  Bloclist:
+    label: Blocs de contenu
+    type: subpagelist
+    filter: 
+  		template: bloc

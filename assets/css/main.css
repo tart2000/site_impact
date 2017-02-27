@@ -4,9 +4,6 @@
    Author's custom styles
    ========================================================================== */
 
-html, body {
-	height: 100%;
-}
 p {
 	font-size: 1.15em;
 }
@@ -47,6 +44,10 @@ a {
 .center {
 	text-align: center;
 }
+.strike {
+	color:#efefef;
+}
+
 /* Navbar */
 .navbar-brand>img {
 	max-height: 100%;
@@ -274,10 +275,40 @@ img.partner:hover, .mentor .thumb-img img:hover {
 }
 .btn-simple:hover {
 	font-weight: 700;
+	text-decoration: none;
 }
 
 .alert {
 	border-radius: 0px;
+}
+
+.bloc {
+	position: relative;
+}
+
+/* Module page */
+.arrow::before {
+	content: '↓';
+	position: absolute;
+	left: 150px;
+	top: -20px;
+}
+@media (min-width: 760px) {
+	.arrow::before {
+		content: '→';
+		position: absolute;
+		left: -5px;
+		top: 60px;
+	}
+}
+.panel, .panel-heading, .panel-group {
+	border-radius: 0px !important;
+}
+.panel-heading.grey {
+	background-color: #ddd !important;
+}
+ a h4.panel-title {
+	color: #337ab7;
 }
 
 /* Google map */
@@ -294,7 +325,6 @@ iframe.maps:active {
 
 /* Footer */
 .footer {
-	background-color: #efefef;
 	padding-top: 50px; 
 	padding-bottom: 50px;
 }

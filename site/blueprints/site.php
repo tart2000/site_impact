@@ -15,9 +15,12 @@ fields:
   keywords:
     label: Keywords
     type:  tags
-  copyright:
-    label: Copyright
-    type:  textarea  
+  logo:
+    label: Logo
+    type: selector
+    mode: single
+    types:
+      - image
   analytics:
     label: Google Analytics ID
     type:  text

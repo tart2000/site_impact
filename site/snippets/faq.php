@@ -2,7 +2,7 @@
   <?php $count = 1 ?>
   <?php foreach (page('faq')->questions()->yaml() as $qa) : ?>
     <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="heading<?php echo $count ?>">
+      <div class="panel-heading grey" role="tab" id="heading<?php echo $count ?>">
         <h4 class="panel-title">
           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $count ?>" aria-expanded="false" aria-controls="collapse<?php echo $count ?>">
             <?php echo $qa['question'] ?>
