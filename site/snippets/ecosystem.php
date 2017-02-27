@@ -1,6 +1,6 @@
 
 <?php $count = 0 ?>
-<ul class="nav nav-pills nav-justified bmt pb" role="tablist">
+<ul class="nav nav-pills nav-justified bmt mb" role="tablist">
     <?php foreach (page('categories')->children() as $cat) : ?>
         <li role="presentation" class="<?php e($count==0,'active') ?>">
             <a href="#<?php echo $cat->dirname() ?>" aria-controls="<?php echo $cat->dirname() ?>" role="tab" data-toggle="tab"><?php echo $cat->title() ?></a>

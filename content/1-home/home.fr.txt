@@ -31,30 +31,18 @@ Ctas:
   titre: Méthodologie précise
   fa: cogs
   link: /programme
-  letexte: >
-    Divide details about your product or
-    agency work into parts. Write a few
-    lines about each one. A paragraph
-    describing a feature will be enough.
+  letexte: "Impact8 s'appuie sur une structure précise, articulée autour de quatre modules de contenus, en mettant l'accent sur l'impact et sur la culture."
 - 
   titre: Apprentissage pair-à-pair
   fa: exchange
   link: /cohortes
-  letexte: >
-    Divide details about your product or
-    agency work into parts. Write a few
-    lines about each one. A paragraph
-    describing a feature will be enough.
+  letexte: "De nombreux moments sont prévus dans le parcours pour créer des moments d'échange entre les différentes organisations."
 - 
   titre: Incroyable écosystème
   fa: users
   link: /ecosystem
-  letexte: >
-    Divide details about your product or
-    agency work into parts. Write a few
-    lines about each one. A paragraph
-    describing a feature will be enough.
+  letexte: "Entre les coachs, les intervenants - et bien sûr, l'équipe d'organisation - Impact8 s'appuie sur un groupe d'humains formidables issus de domaines variés."
 
 ----
 
-Cover: pool_water3.jpg
+Cover: impact8-cohort.jpg

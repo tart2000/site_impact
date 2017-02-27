@@ -265,6 +265,10 @@ img.partner:hover, .mentor .thumb-img img:hover {
 	text-align: center;
 	min-height: 80px;
 }
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover {
+	background-color: #FF6C20 !important;
+}
+
 
 /* Genral elements */
 
