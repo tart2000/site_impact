@@ -16,7 +16,7 @@ var radius = 8,
     offset = 20,
     nodes = [],
     node_layer,
-    colorRange = ['#ff931e','#ff7f1f','#ff6c20','#ff5822','#ff4423','#ff3124'],
+    colorRange = ['#89c9f7','#63b9f7','#1e5176','#416076','#3286c2','#69a7d2'],
     grey = '#efefef', // le gris de base 
     colorRatio = 6,
     edge_style = {

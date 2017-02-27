@@ -4,16 +4,16 @@ Title: Accueil
 
 Text: 
 
-###Impact8 est un programme d'accompagnement pour aider les entrepreneurs sociaux à passer à l'échelle et maximiser leur impact. 
-Il s'adresse à toutes les organisations (entreprises, coopératives et organisations à but non lucratif) qui ont validé leur modèle d'affaire à travers (au minimum) une première année d'existence. 
-Il demande un engagement de 6 mois à raison de 1 journée par semaine.
+###La Piscine est le premier incubateur montréalais  dédié spécifiquement aux organisations issues des industries créatives. 
+
+Il cherche à mêler dans un même bain des jeunes pousses et des entreprises établies, à travers des programmes d'accélération et d'intrapreneuriat.
 
 ----
 
 Intro: 
 
-(image: logo_impact8_transparent_S.png)
-#Programme d'accélération en innovation sociale
+(image: piscine_logo_test.png)
+#Plateforme d'Incubation pour le Secteur Créatif et les Innovateurs Numériques Émergents
 
 ----
 
