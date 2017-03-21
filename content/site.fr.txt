@@ -18,7 +18,7 @@ Copyright: © Rhizome 2016
 
 ----
 
-Logo: logo_impact8_tiny.png
+Logo: piscine_logo_tiny.png
 
 ----
 

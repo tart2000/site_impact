@@ -7,7 +7,7 @@
     </div>
 
     <?php if ($page->notif() != '') : ?>
-    	<div class="alert alert-danger landing-alert">
+    	<div class="alert alert-warning landing-alert">
              <div class="container text-center">
                  <h5><?php echo $page->notif() ?>
                  <?php if ($page->notifbtn() != '') : ?>
@@ -36,6 +36,7 @@
         </div>
     </div>
 
+
 	<div class="main">
 		<div class="section section-light-brown landing-section">
             <div class="container">
@@ -53,6 +54,7 @@
             </div>
         </div>
 	</div>
+
    
     <div class="container">
         <div class="row">

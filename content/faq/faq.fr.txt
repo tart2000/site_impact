@@ -5,11 +5,11 @@ Title: FAQ
 Questions: 
 
 - 
-  question: Combien ça coûte ?
-  answer: Presque rien...
+  question: À qui s'adresse La Piscine ?
+  answer: Aux artistes, architectes, designers, et gestionnaires qui représentent le futur de la scène et du divertissement, de l'édition, de l'écriture, de la publicité, des métiers d’art, de la mode, des arts culinaires, du jeu vidéo, du multimédia et de la réalité virtuelle, de l’audiovisuel, des nouvelles écritures et des nouveaux médias. Son programme est pensé pour faciliter le passage à l'échelle d'entreprises et OSBLs ayant une proposition de valeur qui sort des sentiers battus.
 - 
-  question: Qu'est-ce qu'on gagne ?
-  answer: Un collier de fleurs et son poids en petits pois
+  question: Comment est faite la sélection ?
+  answer: Les critères de selection se basent principalement sur le caractère innovant du projet que l'approche innovante soit sur le modèle d'affaire, un processus ou l'intégration de technologies.
 - 
-  question: À qui profite le crime ?
-  answer: En général, au Colonel Moutarde
+  question: Quel est l'engagement ?
+  answer: Les organisations s'engagent pour six mois avec une possibilité de prolonger pour quatre autres mois.

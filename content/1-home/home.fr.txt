@@ -12,7 +12,7 @@ Il cherche à mêler dans un même bain des jeunes pousses et des entreprises é
 
 Intro: 
 
-(image: piscine_logo_test.png)
+(image: piscine_logo_wip.png)
 #Plateforme d'Incubation pour le Secteur Créatif et les Innovateurs Numériques Émergents
 
 ----

@@ -11,6 +11,7 @@ function closeNav() {
 // Box sizing 
 $(function() {
     $('.mentor').matchHeight();
+    $('.partner-cont').matchHeight();
 });
 
 

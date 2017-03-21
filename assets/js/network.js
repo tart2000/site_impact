@@ -243,7 +243,6 @@ $(document).ready(function () {
         canvas = $('<canvas id="canvas" style="width:100%;" resize></canvas>').prependTo(container),
         content_height = blurb.outerHeight(),
         window_height = $(window).outerHeight(),
-        header_height = $('body > intro').outerHeight(),
         network = new Network();
 
     if (!container.length) {
@@ -251,12 +250,12 @@ $(document).ready(function () {
     }
 
     // Allow scrolling on small windows
-    if (content_height > (window_height - header_height)) {
+    if (content_height > window_height) {
         container.height(content_height);
         canvas.height(content_height);
     } else {
-        container.height(content_height);
-        canvas.height(content_height);
+        container.height(window_height);
+        canvas.height(window_height);
     }
 
     network.init();

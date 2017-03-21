@@ -1,8 +1,7 @@
 <?php snippet('header') ?>
 
 	<div class="container mini bmt mb" role="main">
-		<?php snippet('calendar', array('limit'=>30)) ?>
-
+			<?php snippet('calendar') ?>
 	</div> <!-- // container -->
 
 <?php snippet('footer') ?>
